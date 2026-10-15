@@ -1,11 +1,25 @@
-<div align="center">
+# MédiFaso - Plateforme de Recherche de Médicaments
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+## Problème adressé
+De nombreux patients et médecins font face à une incertitude critique concernant la disponibilité des médicaments. Cette situation oblige les familles à parcourir de nombreuses officines ("le tour des pharmacies"), entraînant une perte de temps précieuse et des retards de traitement pouvant être vitaux. MédiFaso résout ce problème en offrant une visibilité en temps réel sur les stocks des pharmacies locales au Burkina Faso.
 
-  <h1>Built with AI Studio</h2>
+## Solution proposée
+MédiFaso est une plateforme numérique qui synchronise les stocks des pharmacies en temps réel. Grâce à une recherche intelligente et la géolocalisation, elle indique instantanément au patient où trouver son médicament au meilleur prix, lui évitant ainsi des déplacements inutiles et coûteux.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## Description du Projet
+**MédiFaso** est une application web conçue pour connecter les pharmacies, les patients et les médecins.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+### Fonctionnalités Clés :
+- **Recherche Instantanée :** Trouvez quel établissement possède le médicament dont vous avez besoin.
+- **Espace Pharmacien :** Les officines peuvent gérer leur inventaire, mettre à jour les prix et signaler les ruptures de stock en un clic avec une persistance des données.
+- **Coin du Médecin :** Un accès rapide pour les professionnels de santé afin de guider les patients vers les pharmacies approvisionnées.
+- **Géolocalisation :** Visualisez les pharmacies sur une carte pour trouver la plus proche de votre position.
 
-</div>
+### Technologies utilisées :
+- **Framework :** Next.js 15 (App Router)
+- **UI :** Shadcn/UI & Tailwind CSS
+- **État :** Persistance via SessionStorage isolée par pharmacie pour une démonstration fluide
+- **Icônes :** Lucide React
+
+---
+© 2024 MédiFaso. Améliorer l'accès aux soins par la technologie.
